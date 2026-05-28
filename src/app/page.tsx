@@ -83,7 +83,7 @@ export default function Home() {
                 <span className="animated-char">.</span>
               </span>
             </h1>
-            <p className="lede">Weekly insights on AI strategy for complex organizations.</p>
+            <p className="lede">I write about how complex organizations turn AI experiments into real capabilities, connecting strategy, infrastructure, governance, product execution, and agentic systems.</p>
               <div className="kit-embed">
               {/* Newsletter signup placeholder */}
               <div className="bg-zinc-900 rounded-lg p-6 border border-zinc-700 max-w-md mx-auto shadow-2xl">
@@ -99,23 +99,12 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Testimonials Section - Justin Welsh Structure */}
+          {/* Credibility Strip - From Content Pack */}
           <section className="testimonials">
-            <p className="testimonials-eyebrow">Trusted by <em>enterprise</em> and government leaders</p>
-            <ul className="testimonial-list">
-              <li className="testimonial">
-                <span className="testimonial-quote">"Moshe's framework transformed how we think about AI operationalization."</span>
-                <span className="testimonial-attrib">— Healthcare CTO, <em>Fortune 500 Health System</em></span>
-              </li>
-              <li className="testimonial">
-                <span className="testimonial-quote">"Essential reading for anyone implementing AI in complex organizations."</span>
-                <span className="testimonial-attrib">— Innovation Director, <em>Federal Agency</em></span>
-              </li>
-              <li className="testimonial">
-                <span className="testimonial-quote">"Clear, practical guidance that works in government environments."</span>
-                <span className="testimonial-attrib">— Technology Executive, <em>Public Sector</em></span>
-              </li>
-            </ul>
+            <p className="testimonials-eyebrow">Work and thinking connected to</p>
+            <div className="text-center text-zinc-400 text-sm font-medium">
+              Israel National Digital Agency · Ministry of Health · TIMNA · Stat-Market · umAI · Lawfare
+            </div>
           </section>
 
           {/* Free Resource - Justin Welsh Style */}
@@ -135,67 +124,116 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Most Popular Essays */}
+          {/* What I Write About - From Content Pack */}
           <section className="home-essays">
-            <h2 className="section-heading">Most popular essays</h2>
+            <h2 className="section-heading">What I Write About</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+              <div className="p-6 bg-zinc-900 rounded-lg border border-zinc-700">
+                <h3 className="text-xl font-semibold text-white mb-3">AI Operating Models</h3>
+                <p className="text-zinc-300 text-sm">How organizations move from pilots and tools to repeatable AI capabilities.</p>
+              </div>
+              <div className="p-6 bg-zinc-900 rounded-lg border border-zinc-700">
+                <h3 className="text-xl font-semibold text-white mb-3">Agentic Systems</h3>
+                <p className="text-zinc-300 text-sm">How AI agents, orchestration, permissions, and workflows change organizational work.</p>
+              </div>
+              <div className="p-6 bg-zinc-900 rounded-lg border border-zinc-700">
+                <h3 className="text-xl font-semibold text-white mb-3">AI Infrastructure and Governance</h3>
+                <p className="text-zinc-300 text-sm">The platforms, cloud environments, data layers, and guardrails needed to scale AI responsibly.</p>
+              </div>
+              <div className="p-6 bg-zinc-900 rounded-lg border border-zinc-700">
+                <h3 className="text-xl font-semibold text-white mb-3">AI Strategy for Complex Organizations</h3>
+                <p className="text-zinc-300 text-sm">Lessons from healthcare, enterprise, and government on adopting AI where complexity is real.</p>
+              </div>
+            </div>
+          </section>
+
+          {/* Featured Thinking */}
+          <section className="home-essays">
+            <h2 className="section-heading">Featured Thinking</h2>
             <ul className="essay-list">
               <li>
-                <a href="#operationalization">
-                  <div className="essay-tags"><span>Strategy</span></div>
-                  <h3 className="essay-title">Why AI projects fail at scale.</h3>
-                  <p className="essay-desc">The gap between demos and production isn't technical—it's organizational. Here's what enterprise leaders get wrong.</p>
-                  <div className="essay-meta">
-                    <span>Issue #1</span>
-                    <span>Coming Soon</span>
-                    <span>5 min read</span>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="https://lawfareblog.com/contributors/moshe-uziel" target="_blank" rel="noopener noreferrer">
-                  <div className="essay-tags"><span>Governance</span></div>
-                  <h3 className="essay-title">Global AI governance challenges.</h3>
-                  <p className="essay-desc">Analysis of international approaches to AI regulation and governance frameworks. Published in Lawfare.</p>
+                <a href="https://www.lawfaremedia.org/article/understanding-global-ai-governance-through-a-three-layer-framework" target="_blank" rel="noopener noreferrer">
+                  <div className="essay-tags"><span>AI Governance</span></div>
+                  <h3 className="essay-title">Understanding Global AI Governance Through a Three-Layer Framework</h3>
+                  <p className="essay-desc">A layered way to understand global AI governance, inspired by internet governance and applied to a fragmented AI policy landscape.</p>
                   <div className="essay-meta">
                     <span>Published</span>
-                    <span>External</span>
+                    <span>Lawfare</span>
                     <span>8 min read</span>
                   </div>
                 </a>
               </li>
               <li>
-                <a href="#agentic">
-                  <div className="essay-tags"><span>Agentic</span></div>
-                  <h3 className="essay-title">Building enterprise-ready agentic systems.</h3>
-                  <p className="essay-desc">Technical and organizational considerations for deploying autonomous AI agents in complex environments.</p>
+                <a href="#operationalize">
+                  <div className="essay-tags"><span>AI Operating Models</span></div>
+                  <h3 className="essay-title">AI is easy to demo. Hard to operationalize.</h3>
+                  <p className="essay-desc">Why the next phase of AI adoption is not about more tools, but about operating models, infrastructure, governance, and execution.</p>
                   <div className="essay-meta">
-                    <span>Issue #3</span>
                     <span>Coming Soon</span>
+                    <span>Internal</span>
+                    <span>6 min read</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#public-sector">
+                  <div className="essay-tags"><span>Public Sector AI</span></div>
+                  <h3 className="essay-title">Public-sector AI as a proving ground for enterprise AI</h3>
+                  <p className="essay-desc">What complex public institutions teach us about AI adoption in regulated, high-stakes, multi-stakeholder environments.</p>
+                  <div className="essay-meta">
+                    <span>Coming Soon</span>
+                    <span>Internal</span>
                     <span>7 min read</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#agentic">
+                  <div className="essay-tags"><span>Agentic AI</span></div>
+                  <h3 className="essay-title">Agentic systems need more than agents</h3>
+                  <p className="essay-desc">Why agentic AI requires permissions, workflows, orchestration, evaluation, and operating models, not just smart models.</p>
+                  <div className="essay-meta">
+                    <span>Coming Soon</span>
+                    <span>Internal</span>
+                    <span>5 min read</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#healthcare">
+                  <div className="essay-tags"><span>Healthcare AI</span></div>
+                  <h3 className="essay-title">Lessons from healthcare AI and national data platforms</h3>
+                  <p className="essay-desc">What healthcare AI projects can teach complex organizations about sensitive data, predictive models, NLP, and real-world adoption.</p>
+                  <div className="essay-meta">
+                    <span>Coming Soon</span>
+                    <span>Internal</span>
+                    <span>8 min read</span>
                   </div>
                 </a>
               </li>
             </ul>
           </section>
 
-          {/* Recent Essays */}
+          {/* Selected Work Section - From Content Pack */}
           <section className="home-essays">
-            <h2 className="section-heading">Recent essays</h2>
-            <ul className="essay-list">
-              <li>
-                <a href="#operating-models">
-                  <div className="essay-tags"><span>Operating Models</span></div>
-                  <h3 className="essay-title">AI operating models for complex organizations.<span className="essay-new-badge">New<span className="sr-only"> essay</span></span></h3>
-                  <p className="essay-desc">How to structure teams, processes, and capabilities for sustainable AI implementation.</p>
-                  <div className="essay-meta">
-                    <span>Issue #2</span>
-                    <span>Coming Soon</span>
-                    <span>6 min read</span>
-                  </div>
-                </a>
-              </li>
-            </ul>
-            <p className="see-all"><a href="/writing">View the full archive →</a></p>
+            <h2 className="section-heading">Selected Work</h2>
+            <div className="space-y-8">
+              <div className="p-6 bg-zinc-900 rounded-lg border border-zinc-700">
+                <h3 className="text-xl font-semibold text-white mb-3">Healthcare AI and National Data Platforms</h3>
+                <p className="text-zinc-300 text-sm mb-3">Applied AI work in healthcare, including predictive models, medical NLP, computer vision, anonymization, and national-scale research infrastructure through TIMNA.</p>
+                <p className="text-zinc-400 text-xs">This work included projects on unplanned cesarean delivery prediction, longitudinal HbA1c trends, pediatric development screening, medical free-text classification, pathology document processing, entity extraction, anonymization, and clinical image analysis.</p>
+              </div>
+              <div className="p-6 bg-zinc-900 rounded-lg border border-zinc-700">
+                <h3 className="text-xl font-semibold text-white mb-3">Private-Sector AI and Product Execution</h3>
+                <p className="text-zinc-300 text-sm mb-3">CTO work across AI product development, enterprise delivery, cloud architecture, supervised and unsupervised machine learning, product-market fit, and ROI-oriented execution.</p>
+                <p className="text-zinc-400 text-xs">This experience shaped a practical view of AI: good models are not enough. AI needs to connect to products, workflows, users, business value, cost discipline, and implementation constraints.</p>
+              </div>
+              <div className="p-6 bg-zinc-900 rounded-lg border border-zinc-700">
+                <h3 className="text-xl font-semibold text-white mb-3">Government AI Transformation</h3>
+                <p className="text-zinc-300 text-sm mb-3">AI leadership at the Israel National Digital Agency, including GOVAI, the AI Expertise Center, cross-government AI adoption, infrastructure thinking, and governance.</p>
+                <p className="text-zinc-400 text-xs">This work focuses on turning AI from isolated experiments into shared capabilities that can serve many public institutions safely and effectively.</p>
+              </div>
+            </div>
           </section>
 
           {/* About Section - Justin Welsh Card Style */}
@@ -209,9 +247,10 @@ export default function Home() {
               </div>
               <div className="home-about-body">
                 <p className="home-about-text">
-                  I focus on the practical challenges of implementing AI at scale in complex organizations. 
-                  With experience across government, healthcare, and enterprise sectors, I help organizations 
-                  navigate the gap between AI demos and operational reality.
+                  AI Technology Leader at the Israel National Digital Agency. Former CTO. Former Chief Data Scientist for the TIMNA healthcare AI platform.
+                </p>
+                <p className="home-about-text text-sm text-zinc-400 mt-2">
+                  Moshe's work sits at the intersection of AI strategy, infrastructure, governance, product execution, and agentic systems for complex organizations.
                 </p>
                 <a className="home-about-more" href="/about">Read more →</a>
               </div>
@@ -221,18 +260,19 @@ export default function Home() {
           {/* Final CTA - Newsletter */}
           <section className="home-cta">
             <div className="home-cta-inner">
-              <h3 className="home-cta-title">One essay, every <em>Tuesday</em> morning.</h3>
-              <p className="home-cta-lede">Join 2,000+ executives implementing AI in complex organizations.</p>
+              <h3 className="home-cta-title">Follow my Work</h3>
+              <p className="home-cta-lede">I write about how complex organizations move from AI experimentation to real AI capabilities.</p>
                 <div className="kit-embed">
-                <div className="max-w-md mx-auto space-y-3">
-                  <input 
-                    type="email" 
-                    placeholder="Enter your email"
-                    className="w-full px-4 py-3 bg-zinc-800 border border-zinc-600 text-white placeholder-zinc-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
-                  />
-                  <button className="w-full bg-gradient-to-r from-yellow-400 to-amber-500 text-black py-3 rounded-lg hover:from-amber-500 hover:to-yellow-400 transition-all font-medium shadow-lg">
-                    Subscribe
-                  </button>
+                <div className="max-w-md mx-auto space-y-3 flex flex-col sm:flex-row gap-3">
+                  <a href="https://linkedin.com/in/moshe-uziel-4909175a" target="_blank" rel="noopener noreferrer" className="flex-1 bg-gradient-to-r from-yellow-400 to-amber-500 text-black py-3 px-6 rounded-lg hover:from-amber-500 hover:to-yellow-400 transition-all font-medium shadow-lg text-center">
+                    Connect on LinkedIn
+                  </a>
+                  <a href="/writing" className="flex-1 bg-zinc-800 text-white py-3 px-6 rounded-lg hover:bg-zinc-700 transition-all font-medium border border-zinc-600 text-center">
+                    Read my writing
+                  </a>
+                  <a href="/contact" className="flex-1 bg-zinc-800 text-white py-3 px-6 rounded-lg hover:bg-zinc-700 transition-all font-medium border border-zinc-600 text-center">
+                    Contact me
+                  </a>
                 </div>
               </div>
               <p className="home-cta-fine">No spam. Unsubscribe anytime.</p>
@@ -252,7 +292,7 @@ export default function Home() {
           </nav>
         </div>
         <nav className="foot-social" aria-label="Social media">
-          <a href="https://linkedin.com/in/mosheuziel" target="_blank" rel="noopener noreferrer" aria-label="Moshe Uziel on LinkedIn">LinkedIn</a>
+          <a href="https://linkedin.com/in/moshe-uziel-4909175a" target="_blank" rel="noopener noreferrer" aria-label="Moshe Uziel on LinkedIn">LinkedIn</a>
           <a href="mailto:hello@mosheuziel.com" aria-label="Email Moshe Uziel">Email</a>
         </nav>
       </footer>

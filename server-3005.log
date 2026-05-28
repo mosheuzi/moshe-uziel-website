@@ -91,3 +91,60 @@ https://react.dev/link/hydration-mismatch
 ✓ Compiled in 138ms
 ✓ Compiled in 75ms
 ✓ Compiled in 169ms
+ GET / 200 in 603ms (next.js: 40ms, application-code: 563ms)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className="antialiased"
+-                           sws-instrumented="true"
+                          >
+                  ...
+ 
+✓ Compiled in 218ms
+ GET / 200 in 294ms (next.js: 23ms, application-code: 271ms)
+✓ Compiled in 110ms
+ GET / 200 in 107ms (next.js: 12ms, application-code: 95ms)
+✓ Compiled in 120ms
+ GET / 200 in 140ms (next.js: 9ms, application-code: 131ms)
+✓ Compiled in 45ms
+ GET / 200 in 109ms (next.js: 8ms, application-code: 101ms)
+✓ Compiled in 39ms
+ GET / 200 in 96ms (next.js: 9ms, application-code: 87ms)
+✓ Compiled in 41ms
+ GET / 200 in 122ms (next.js: 10ms, application-code: 112ms)
+✓ Compiled in 69ms
+ GET / 200 in 106ms (next.js: 10ms, application-code: 96ms)
+✓ Compiled in 63ms
+ GET / 200 in 151ms (next.js: 12ms, application-code: 140ms)
+✓ Compiled in 73ms
+✓ Compiled in 79ms
+✓ Compiled in 104ms

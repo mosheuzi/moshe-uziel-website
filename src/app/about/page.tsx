@@ -47,7 +47,7 @@ export default function About() {
         <div className="mb-12">
           <h1 className="text-4xl font-bold text-white mb-4">About</h1>
           <p className="text-xl text-zinc-300 max-w-3xl">
-            Helping complex organizations bridge the gap between AI demos and operational reality.
+            AI Technology Leader at the Israel National Digital Agency. Former CTO. Former Chief Data Scientist for the TIMNA healthcare AI platform.
           </p>
         </div>
 
@@ -55,124 +55,112 @@ export default function About() {
         <div className="prose prose-lg max-w-none">
           <div className="space-y-8">
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Focus Areas</h2>
-              <p className="text-zinc-300 leading-relaxed mb-6">
-                I work at the intersection of AI strategy, technical implementation, and organizational change. 
-                My focus is on the practical challenges that complex organizations face when trying to move 
-                from AI proof-of-concepts to sustainable, value-creating AI capabilities.
+              <p className="text-zinc-300 leading-relaxed mb-6 text-lg">
+                Moshe Uziel is an AI leader focused on helping complex organizations turn AI experiments into real operational capabilities.
               </p>
-              
-              <div className="grid md:grid-cols-2 gap-8">
-                <div>
-                  <h3 className="text-lg font-semibold text-white mb-3">AI Strategy & Governance</h3>
-                  <ul className="space-y-2 text-zinc-300">
-                    <li>• AI operating model design</li>
-                    <li>• Governance framework development</li>
-                    <li>• Risk management strategies</li>
-                    <li>• Policy analysis and recommendations</li>
-                  </ul>
-                </div>
-                
-                <div>
-                  <h3 className="text-lg font-semibold text-white mb-3">Technical Implementation</h3>
-                  <ul className="space-y-2 text-zinc-300">
-                    <li>• AI infrastructure architecture</li>
-                    <li>• Agentic systems design</li>
-                    <li>• Enterprise AI platforms</li>
-                    <li>• Scalability and reliability patterns</li>
-                  </ul>
-                </div>
-              </div>
+              <p className="text-zinc-300 leading-relaxed mb-6">
+                His work sits at the intersection of AI strategy, infrastructure, governance, product execution, and agentic systems.
+              </p>
+              <p className="text-zinc-300 leading-relaxed mb-8">
+                Moshe's path began in data and business, moved into applied AI and healthcare research, then into private-sector technology leadership, and today focuses on government-wide AI adoption at the Israel National Digital Agency.
+              </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Experience</h2>
-              <p className="text-zinc-300 leading-relaxed mb-6">
-                My work spans across government, healthcare, and enterprise sectors. I've been involved in 
-                designing AI strategies for large-scale organizations, developing governance frameworks for 
-                responsible AI deployment, and building technical architectures for agentic systems.
-              </p>
+              <h2 className="text-2xl font-bold text-white mb-6">Career Journey</h2>
               
               <div className="space-y-6">
                 <div className="border-l-4 border-yellow-400 pl-6">
-                  <h3 className="text-lg font-semibold text-white">Government & Public Sector</h3>
-                  <p className="text-zinc-300">
-                    AI strategy development, policy analysis, and implementation planning for public sector 
-                    organizations. Focus on transparency, accountability, and public interest considerations 
-                    in AI deployment.
+                  <h3 className="text-lg font-semibold text-white mb-2">Healthcare AI and National Data Platforms</h3>
+                  <p className="text-zinc-300 mb-3">
+                    Earlier in his career, he led data science work for TIMNA, Israel's national health research platform, where he worked on applied machine learning, NLP, computer vision, anonymization, and national-scale health data infrastructure.
+                  </p>
+                  <p className="text-zinc-400 text-sm">
+                    Projects included unplanned cesarean delivery prediction, longitudinal HbA1c trends, pediatric development screening, medical free-text classification, pathology document processing, entity extraction, anonymization, and clinical image analysis.
                   </p>
                 </div>
                 
                 <div className="border-l-4 border-amber-500 pl-6">
-                  <h3 className="text-lg font-semibold text-white">Healthcare & Critical Sectors</h3>
-                  <p className="text-zinc-300">
-                    AI implementation in high-stakes environments with stringent regulatory requirements. 
-                    Experience with clinical workflows, compliance frameworks, and risk management in 
-                    safety-critical applications.
+                  <h3 className="text-lg font-semibold text-white mb-2">Private-Sector AI and Product Execution</h3>
+                  <p className="text-zinc-300 mb-3">
+                    He later served as CTO at Stat-Market and co-founder and CTO at umAI, working on AI products, cloud architectures, enterprise delivery, and ROI-oriented execution.
+                  </p>
+                  <p className="text-zinc-400 text-sm">
+                    This experience shaped a practical view of AI: good models are not enough. AI needs to connect to products, workflows, users, business value, cost discipline, and implementation constraints.
                   </p>
                 </div>
                 
                 <div className="border-l-4 border-orange-500 pl-6">
-                  <h3 className="text-lg font-semibold text-white">Enterprise & Complex Organizations</h3>
-                  <p className="text-zinc-300">
-                    Large-scale AI transformation projects, from strategy development to technical 
-                    implementation. Focus on sustainable AI capabilities that integrate with existing 
-                    organizational structures and processes.
+                  <h3 className="text-lg font-semibold text-white mb-2">Government AI Transformation</h3>
+                  <p className="text-zinc-300 mb-3">
+                    Today, his work focuses on the harder part of AI adoption: not the demo, but the operating layer. Strategy, governance, cloud and data infrastructure, permissions, product thinking, and organizational change all need to come together before AI becomes a real capability.
+                  </p>
+                  <p className="text-zinc-400 text-sm">
+                    At the Israel National Digital Agency, he works on GOVAI, the AI Expertise Center, cross-government AI adoption, infrastructure thinking, and governance frameworks.
                   </p>
                 </div>
               </div>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Approach</h2>
+              <h2 className="text-2xl font-bold text-white mb-4">Focus Areas</h2>
               <p className="text-zinc-300 leading-relaxed mb-6">
-                Most AI projects fail not because of technical limitations, but because organizations 
-                underestimate the complexity of operationalizing AI at scale. My approach focuses on:
+                Moshe writes about AI operating models, agentic systems, AI infrastructure, AI governance, healthcare AI, public-sector transformation, and national AI strategy.
               </p>
               
-              <div className="grid md:grid-cols-3 gap-6">
+              <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-zinc-900 border border-zinc-700 p-6 rounded-lg shadow-lg">
-                  <h3 className="text-lg font-semibold text-white mb-2">Systems Thinking</h3>
+                  <h3 className="text-lg font-semibold text-white mb-2">AI Operating Models</h3>
                   <p className="text-zinc-300 text-sm">
-                    Understanding how AI capabilities interact with existing organizational systems, 
-                    processes, and culture.
+                    How organizations move from pilots and tools to repeatable AI capabilities.
                   </p>
                 </div>
                 
                 <div className="bg-zinc-900 border border-zinc-700 p-6 rounded-lg shadow-lg">
-                  <h3 className="text-lg font-semibold text-white mb-2">Pragmatic Implementation</h3>
+                  <h3 className="text-lg font-semibold text-white mb-2">Agentic Systems</h3>
                   <p className="text-zinc-300 text-sm">
-                    Building AI solutions that work within real-world constraints while creating 
-                    sustainable value.
+                    How AI agents, orchestration, permissions, and workflows change organizational work.
+                  </p>
+                </div>
+
+                <div className="bg-zinc-900 border border-zinc-700 p-6 rounded-lg shadow-lg">
+                  <h3 className="text-lg font-semibold text-white mb-2">AI Infrastructure and Governance</h3>
+                  <p className="text-zinc-300 text-sm">
+                    The platforms, cloud environments, data layers, and guardrails needed to scale AI responsibly.
                   </p>
                 </div>
                 
                 <div className="bg-zinc-900 border border-zinc-700 p-6 rounded-lg shadow-lg">
-                  <h3 className="text-lg font-semibold text-white mb-2">Responsible Scaling</h3>
+                  <h3 className="text-lg font-semibold text-white mb-2">AI Strategy for Complex Organizations</h3>
                   <p className="text-zinc-300 text-sm">
-                    Ensuring AI deployments are transparent, accountable, and aligned with 
-                    organizational values and public interest.
+                    Lessons from healthcare, enterprise, and government on adopting AI where complexity is real.
                   </p>
                 </div>
               </div>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Writing & Speaking</h2>
+              <h2 className="text-2xl font-bold text-white mb-4">Writing & Thinking</h2>
               <p className="text-zinc-300 leading-relaxed mb-6">
-                I write about the intersection of AI technology, organizational strategy, and policy. 
-                My work has appeared in policy publications, and I regularly speak at conferences 
-                about AI governance and implementation challenges.
+                Moshe writes about AI operating models, agentic systems, AI infrastructure, AI governance, healthcare AI, public-sector transformation, and national AI strategy. He is a co-author of a Lawfare article on global AI governance through a layered framework.
               </p>
               
-              <div className="flex space-x-4">
+              <div className="flex flex-wrap gap-4">
                 <a 
-                  href="https://lawfareblog.com/contributors/moshe-uziel" 
+                  href="https://www.lawfaremedia.org/article/understanding-global-ai-governance-through-a-three-layer-framework" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center text-yellow-400 hover:text-yellow-300 font-medium"
                 >
-                  Lawfare Contributions <ArrowUpRight className="ml-1 w-4 h-4" />
+                  Lawfare Article <ArrowUpRight className="ml-1 w-4 h-4" />
+                </a>
+                <a 
+                  href="https://www.lawfaremedia.org/contributors/muziel" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-yellow-400 hover:text-yellow-300 font-medium"
+                >
+                  Lawfare Profile <ArrowUpRight className="ml-1 w-4 h-4" />
                 </a>
                 <Link 
                   href="/writing"
@@ -181,19 +169,6 @@ export default function About() {
                   All Writing <ArrowUpRight className="ml-1 w-4 h-4" />
                 </Link>
               </div>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Background</h2>
-              <p className="text-zinc-300 leading-relaxed mb-4">
-                I combine technical expertise in AI systems with strategic experience in organizational 
-                transformation and policy development. This background allows me to work across the full 
-                spectrum of AI implementation challenges, from technical architecture to governance frameworks.
-              </p>
-              <p className="text-zinc-300 leading-relaxed">
-                When not working on AI strategy, I enjoy exploring the policy implications of emerging 
-                technologies and contributing to discussions about responsible AI development and deployment.
-              </p>
             </section>
           </div>
         </div>
@@ -216,7 +191,7 @@ export default function About() {
                 Email
               </a>
               <a 
-                href="https://linkedin.com/in/mosheuziel" 
+                href="https://linkedin.com/in/moshe-uziel-4909175a" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center border border-zinc-600 text-white px-6 py-3 rounded-lg hover:border-yellow-400 hover:text-yellow-400 transition-colors"

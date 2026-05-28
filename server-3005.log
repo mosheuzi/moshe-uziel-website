@@ -5,7 +5,7 @@
 ▲ Next.js 16.2.6 (Turbopack)
 - Local:         http://localhost:3005
 - Network:       http://0.0.0.0:3005
-✓ Ready in 874ms
+✓ Ready in 841ms
 ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
  We detected multiple lockfiles and selected the directory of /home/mosheu_aaa/package-lock.json as the root directory.
  To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
@@ -14,4 +14,4 @@
    * /home/mosheu_aaa/multica_workspaces/cfccb394-e341-47c0-afef-050b9d438260/e2d76c23/workdir/moshe-uziel-website/package-lock.json
 
 
-[?25h
+ GET / 200 in 3.5s (next.js: 2.8s, application-code: 706ms)

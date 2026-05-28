@@ -56,13 +56,13 @@ export default function About() {
           <div className="space-y-8">
             <section>
               <p className="text-zinc-300 leading-relaxed mb-6 text-lg">
-                Moshe Uziel is an AI leader focused on helping complex organizations turn AI experiments into real operational capabilities.
+                Moshe started in data and business, moved into applied healthcare AI and national health data platforms through TIMNA, then into private-sector CTO roles, and today works on government-wide AI adoption at the Israel National Digital Agency.
               </p>
               <p className="text-zinc-300 leading-relaxed mb-6">
-                His work sits at the intersection of AI strategy, infrastructure, governance, product execution, and agentic systems.
+                This path shaped his view that AI is not just a demo layer or a productivity tool, but an operating capability that requires strategy, infrastructure, governance, product thinking, and organizational change.
               </p>
               <p className="text-zinc-300 leading-relaxed mb-8">
-                Moshe's path began in data and business, moved into applied AI and healthcare research, then into private-sector technology leadership, and today focuses on government-wide AI adoption at the Israel National Digital Agency.
+                His current work focuses on AI operating models, agentic systems, governance, infrastructure, and complex organizations — areas where AI's promise meets the reality of implementation.
               </p>
             </section>
 

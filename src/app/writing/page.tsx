@@ -106,94 +106,53 @@ export default function Writing() {
             </div>
           </article>
 
-          {/* Coming Soon Articles */}
-          <article className="border-b border-zinc-700 pb-12 opacity-75">
-            <div className="flex items-start space-x-4">
-              <div className="flex-1">
-                <div className="flex items-center space-x-2 mb-2">
+          {/* Topics I'm Exploring */}
+          <section className="mt-16">
+            <h2 className="text-2xl font-bold text-white mb-6">Topics I'm Exploring</h2>
+            <p className="text-zinc-400 mb-8">Areas of current research and thinking that will inform future writing.</p>
+            
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="p-6 bg-zinc-900 border border-zinc-700 rounded-lg">
+                <div className="flex items-center space-x-2 mb-3">
                   <span className="px-2 py-1 bg-amber-500 text-black rounded text-xs font-medium">AI Operating Models</span>
-                  <span className="text-zinc-400 text-sm">Coming Soon</span>
                 </div>
-                <h2 className="text-2xl font-bold text-white mb-3">
-                  AI is easy to demo. Hard to operationalize.
-                </h2>
-                <p className="text-zinc-300 mb-4 leading-relaxed">
-                  Why the next phase of AI adoption is not about more tools, but about operating models, infrastructure, governance, and execution.
+                <h3 className="text-lg font-semibold text-white mb-2">From AI Demos to Operational Reality</h3>
+                <p className="text-zinc-300 text-sm">
+                  How organizations move beyond pilots and tools to build repeatable AI capabilities that integrate with existing workflows and create measurable value.
                 </p>
-                <div className="flex items-center space-x-4">
-                  <span className="text-zinc-500 text-sm">Coming Soon</span>
-                  <span className="text-zinc-600">•</span>
-                  <span className="text-zinc-400 text-sm">6 min read</span>
-                </div>
               </div>
-            </div>
-          </article>
-
-          <article className="border-b border-zinc-700 pb-12 opacity-75">
-            <div className="flex items-start space-x-4">
-              <div className="flex-1">
-                <div className="flex items-center space-x-2 mb-2">
-                  <span className="px-2 py-1 bg-orange-500 text-black rounded text-xs font-medium">Public Sector AI</span>
-                  <span className="text-zinc-400 text-sm">Coming Soon</span>
-                </div>
-                <h2 className="text-2xl font-bold text-white mb-3">
-                  Public-sector AI as a proving ground for enterprise AI
-                </h2>
-                <p className="text-zinc-300 mb-4 leading-relaxed">
-                  What complex public institutions teach us about AI adoption in regulated, high-stakes, multi-stakeholder environments.
-                </p>
-                <div className="flex items-center space-x-4">
-                  <span className="text-zinc-500 text-sm">Coming Soon</span>
-                  <span className="text-zinc-600">•</span>
-                  <span className="text-zinc-400 text-sm">7 min read</span>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article className="border-b border-zinc-700 pb-12 opacity-75">
-            <div className="flex items-start space-x-4">
-              <div className="flex-1">
-                <div className="flex items-center space-x-2 mb-2">
+              
+              <div className="p-6 bg-zinc-900 border border-zinc-700 rounded-lg">
+                <div className="flex items-center space-x-2 mb-3">
                   <span className="px-2 py-1 bg-purple-500 text-black rounded text-xs font-medium">Agentic AI</span>
-                  <span className="text-zinc-400 text-sm">Coming Soon</span>
                 </div>
-                <h2 className="text-2xl font-bold text-white mb-3">
-                  Agentic systems need more than agents
-                </h2>
-                <p className="text-zinc-300 mb-4 leading-relaxed">
-                  Why agentic AI requires permissions, workflows, orchestration, evaluation, and operating models, not just smart models.
+                <h3 className="text-lg font-semibold text-white mb-2">Agentic Systems Architecture</h3>
+                <p className="text-zinc-300 text-sm">
+                  Why agentic AI requires permissions, workflows, orchestration, evaluation frameworks, and operating models — not just smart models.
                 </p>
-                <div className="flex items-center space-x-4">
-                  <span className="text-zinc-500 text-sm">Coming Soon</span>
-                  <span className="text-zinc-600">•</span>
-                  <span className="text-zinc-400 text-sm">5 min read</span>
-                </div>
               </div>
-            </div>
-          </article>
-
-          <article className="border-b border-zinc-700 pb-12 opacity-75">
-            <div className="flex items-start space-x-4">
-              <div className="flex-1">
-                <div className="flex items-center space-x-2 mb-2">
+              
+              <div className="p-6 bg-zinc-900 border border-zinc-700 rounded-lg">
+                <div className="flex items-center space-x-2 mb-3">
+                  <span className="px-2 py-1 bg-orange-500 text-black rounded text-xs font-medium">Public Sector AI</span>
+                </div>
+                <h3 className="text-lg font-semibold text-white mb-2">Government AI as Enterprise Preview</h3>
+                <p className="text-zinc-300 text-sm">
+                  What complex public institutions teach us about AI adoption in regulated, high-stakes, multi-stakeholder environments with real constraints.
+                </p>
+              </div>
+              
+              <div className="p-6 bg-zinc-900 border border-zinc-700 rounded-lg">
+                <div className="flex items-center space-x-2 mb-3">
                   <span className="px-2 py-1 bg-red-500 text-black rounded text-xs font-medium">Healthcare AI</span>
-                  <span className="text-zinc-400 text-sm">Coming Soon</span>
                 </div>
-                <h2 className="text-2xl font-bold text-white mb-3">
-                  Lessons from healthcare AI and national data platforms
-                </h2>
-                <p className="text-zinc-300 mb-4 leading-relaxed">
-                  What healthcare AI projects can teach complex organizations about sensitive data, predictive models, NLP, and real-world adoption.
+                <h3 className="text-lg font-semibold text-white mb-2">TIMNA Platform Lessons</h3>
+                <p className="text-zinc-300 text-sm">
+                  Insights from building national-scale healthcare AI: sensitive data handling, predictive modeling, NLP systems, and real-world deployment challenges.
                 </p>
-                <div className="flex items-center space-x-4">
-                  <span className="text-zinc-500 text-sm">Coming Soon</span>
-                  <span className="text-zinc-600">•</span>
-                  <span className="text-zinc-400 text-sm">8 min read</span>
-                </div>
               </div>
             </div>
-          </article>
+          </section>
         </div>
 
         {/* Call to Action */}

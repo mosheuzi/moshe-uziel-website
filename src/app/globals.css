@@ -1,16 +1,20 @@
 @import "tailwindcss";
 
-/* Justin Welsh Visual Design System - Exact Structure */
+/* Prestige Black Design System - Sophisticated Authority */
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --gray-50: #f9fafb;
-  --gray-100: #f3f4f6;
-  --gray-200: #e5e7eb;
-  --gray-600: #4b5563;
-  --gray-700: #374151;
-  --gray-900: #111827;
+  --background: #0a0a0a;
+  --background-card: #111111;
+  --background-elevated: #1a1a1a;
+  --foreground: #ffffff;
+  --foreground-muted: #a1a1aa;
+  --foreground-subtle: #71717a;
+  --border-primary: #27272a;
+  --border-subtle: #18181b;
+  --accent-gold: #fbbf24;
+  --accent-gold-muted: #f59e0b;
+  --accent-blue: #3b82f6;
+  --accent-silver: #e4e4e7;
 }
 
 @theme inline {
@@ -28,19 +32,21 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   line-height: 1.6;
-  color: var(--gray-900);
+  color: var(--foreground);
   background: var(--background);
   margin: 0;
   padding: 0;
 }
 
-/* Navigation - Exact Justin Welsh Structure */
+/* Navigation - Prestige Black Authority */
 .nav {
-  border-bottom: 1px solid var(--gray-100);
-  background: white;
+  border-bottom: 1px solid var(--border-primary);
+  background: var(--background);
   position: sticky;
   top: 0;
   z-index: 50;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
 .nav-inner {
@@ -57,7 +63,7 @@ body {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: var(--gray-900);
+  color: var(--foreground);
   font-weight: 600;
   font-size: 1.25rem;
 }
@@ -84,13 +90,13 @@ body {
 
 .links a {
   text-decoration: none;
-  color: var(--gray-700);
+  color: var(--foreground-muted);
   font-weight: 500;
   transition: color 0.2s;
 }
 
 .links a:hover {
-  color: var(--gray-900);
+  color: var(--accent-gold);
 }
 
 /* Main Layout */
@@ -115,12 +121,16 @@ body {
   font-weight: 700;
   line-height: 1.1;
   margin: 0 0 1.5rem 0;
-  color: var(--gray-900);
+  color: var(--foreground);
+  background: linear-gradient(135deg, var(--foreground) 0%, var(--accent-gold) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .lede {
   font-size: 1.25rem;
-  color: var(--gray-600);
+  color: var(--foreground-muted);
   margin: 0 0 3rem 0;
   max-width: 600px;
   margin-left: auto;
@@ -134,13 +144,13 @@ body {
 
 /* Testimonials Section */
 .testimonials {
-  background: var(--gray-50);
+  background: var(--background-elevated);
   padding: 4rem 1rem;
   text-align: center;
 }
 
 .testimonials-eyebrow {
-  color: var(--gray-600);
+  color: var(--foreground-muted);
   margin-bottom: 2rem;
   font-size: 0.95rem;
 }
@@ -157,22 +167,23 @@ body {
 }
 
 .testimonial {
-  background: white;
+  background: var(--background-card);
   padding: 1.5rem;
   border-radius: 0.5rem;
-  border: 1px solid var(--gray-200);
+  border: 1px solid var(--border-primary);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .testimonial-quote {
   display: block;
   font-style: italic;
   margin-bottom: 1rem;
-  color: var(--gray-700);
+  color: var(--foreground-muted);
 }
 
 .testimonial-attrib {
   font-size: 0.9rem;
-  color: var(--gray-600);
+  color: var(--foreground-subtle);
 }
 
 /* Section Headings */
@@ -180,7 +191,7 @@ body {
   font-size: 2rem;
   font-weight: 700;
   margin: 0 0 3rem 0;
-  color: var(--gray-900);
+  color: var(--foreground);
 }
 
 /* Free Resource Magnet */
@@ -195,39 +206,43 @@ body {
   grid-template-columns: 1fr auto;
   gap: 4rem;
   align-items: center;
-  background: var(--gray-50);
+  background: var(--background-card);
   padding: 3rem;
   border-radius: 1rem;
-  border: 1px solid var(--gray-200);
+  border: 1px solid var(--border-primary);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 .home-magnet-title {
   font-size: 2rem;
   font-weight: 700;
   margin: 0 0 1rem 0;
-  color: var(--gray-900);
+  color: var(--foreground);
   line-height: 1.2;
 }
 
 .home-magnet-sub {
-  color: var(--gray-600);
+  color: var(--foreground-muted);
   margin-bottom: 2rem;
   font-size: 1.1rem;
 }
 
 .home-magnet-cta {
   display: inline-block;
-  background: var(--gray-900);
-  color: white;
+  background: linear-gradient(135deg, var(--accent-gold) 0%, var(--accent-gold-muted) 100%);
+  color: var(--background);
   padding: 1rem 2rem;
   border-radius: 0.5rem;
   text-decoration: none;
   font-weight: 600;
-  transition: background-color 0.2s;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(251, 191, 36, 0.3);
 }
 
 .home-magnet-cta:hover {
-  background: #000;
+  background: linear-gradient(135deg, var(--accent-gold-muted) 0%, var(--accent-gold) 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(251, 191, 36, 0.4);
 }
 
 .home-magnet-cover {
@@ -252,7 +267,7 @@ body {
 }
 
 .essay-list li {
-  border-bottom: 1px solid var(--gray-200);
+  border-bottom: 1px solid var(--border-primary);
   padding-bottom: 2rem;
 }
 
@@ -267,28 +282,29 @@ body {
 }
 
 .essay-tags span {
-  background: var(--gray-100);
-  color: var(--gray-700);
+  background: var(--background-elevated);
+  color: var(--accent-gold);
   padding: 0.25rem 0.75rem;
   border-radius: 1rem;
   font-size: 0.875rem;
   font-weight: 500;
+  border: 1px solid var(--border-primary);
 }
 
 .essay-title {
   font-size: 1.5rem;
   font-weight: 600;
   margin: 0 0 1rem 0;
-  color: var(--gray-900);
+  color: var(--foreground);
   transition: color 0.2s;
 }
 
 .essay-list a:hover .essay-title {
-  color: #3b82f6;
+  color: var(--accent-gold);
 }
 
 .essay-desc {
-  color: var(--gray-600);
+  color: var(--foreground-muted);
   margin-bottom: 1rem;
   line-height: 1.6;
 }
@@ -297,12 +313,12 @@ body {
   display: flex;
   gap: 1rem;
   font-size: 0.875rem;
-  color: var(--gray-600);
+  color: var(--foreground-subtle);
 }
 
 .essay-new-badge {
-  background: #3b82f6;
-  color: white;
+  background: linear-gradient(135deg, var(--accent-gold) 0%, var(--accent-gold-muted) 100%);
+  color: var(--background);
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: 0.75rem;
@@ -327,14 +343,14 @@ body {
 }
 
 .see-all a {
-  color: #3b82f6;
+  color: var(--accent-gold);
   text-decoration: none;
   font-weight: 500;
 }
 
 /* About Section */
 .home-about {
-  background: var(--gray-50);
+  background: var(--background-elevated);
   padding: 5rem 1rem;
 }
 
@@ -344,10 +360,11 @@ body {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 2rem;
-  background: white;
+  background: var(--background-card);
   padding: 2rem;
   border-radius: 1rem;
-  border: 1px solid var(--gray-200);
+  border: 1px solid var(--border-primary);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 .home-about-photo {
@@ -360,22 +377,22 @@ body {
 }
 
 .home-about-text {
-  color: var(--gray-700);
+  color: var(--foreground-muted);
   line-height: 1.7;
   margin-bottom: 1.5rem;
   font-size: 1.1rem;
 }
 
 .home-about-more {
-  color: #3b82f6;
+  color: var(--accent-gold);
   text-decoration: none;
   font-weight: 500;
 }
 
 /* Final CTA */
 .home-cta {
-  background: white;
-  border-top: 1px solid var(--gray-200);
+  background: var(--background);
+  border-top: 1px solid var(--border-primary);
   padding: 5rem 1rem;
 }
 
@@ -389,11 +406,11 @@ body {
   font-size: 2rem;
   font-weight: 700;
   margin: 0 0 1rem 0;
-  color: var(--gray-900);
+  color: var(--foreground);
 }
 
 .home-cta-lede {
-  color: var(--gray-600);
+  color: var(--foreground-muted);
   margin-bottom: 2rem;
   font-size: 1.1rem;
 }
@@ -401,13 +418,13 @@ body {
 .home-cta-fine {
   margin-top: 1rem;
   font-size: 0.875rem;
-  color: var(--gray-600);
+  color: var(--foreground-subtle);
 }
 
 /* Footer */
 .foot {
-  background: white;
-  border-top: 1px solid var(--gray-100);
+  background: var(--background);
+  border-top: 1px solid var(--border-primary);
   padding: 2rem 1rem;
 }
 
@@ -421,7 +438,19 @@ body {
 }
 
 .foot-copy {
-  color: var(--gray-600);
+  color: var(--foreground-subtle);
+  font-size: 0.875rem;
+}
+
+.foot-links a {
+  color: var(--foreground-subtle);
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+.foot-social a {
+  color: var(--foreground-subtle);
+  text-decoration: none;
   font-size: 0.875rem;
 }
 

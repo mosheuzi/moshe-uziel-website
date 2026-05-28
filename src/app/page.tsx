@@ -3,23 +3,23 @@ import { ArrowUpRight, Mail, ExternalLink, CheckCircle } from 'lucide-react'
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-zinc-950">
       {/* Header Navigation - Exact Justin Welsh Structure */}
       <header className="nav">
         <div className="nav-inner">
           <Link href="/" className="brand">
             <span className="brand-avatar" aria-hidden="true">
-              <div className="w-9 h-9 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
-                <span className="text-white text-sm font-bold">MU</span>
+              <div className="w-9 h-9 rounded-full bg-gradient-to-br from-yellow-400 to-amber-500 flex items-center justify-center">
+                <span className="text-black text-sm font-bold">MU</span>
               </div>
             </span>
             <span className="brand-full">mosheuziel.</span>
             <span className="brand-short">mu.</span>
           </Link>
           <nav className="links">
-            <Link href="/about" className="text-gray-700 hover:text-gray-900">About</Link>
-            <Link href="/writing" className="text-gray-700 hover:text-gray-900">Essays</Link>
-            <Link href="/contact" className="text-gray-700 hover:text-gray-900">Contact</Link>
+            <Link href="/about" className="text-zinc-300 hover:text-yellow-400">About</Link>
+            <Link href="/writing" className="text-zinc-300 hover:text-yellow-400">Essays</Link>
+            <Link href="/contact" className="text-zinc-300 hover:text-yellow-400">Contact</Link>
           </nav>
         </div>
       </header>
@@ -84,15 +84,15 @@ export default function Home() {
               </span>
             </h1>
             <p className="lede">Weekly insights on AI strategy for complex organizations.</p>
-            <div className="kit-embed">
+              <div className="kit-embed">
               {/* Newsletter signup placeholder */}
-              <div className="bg-gray-50 rounded-lg p-6 border border-gray-200 max-w-md mx-auto">
+              <div className="bg-zinc-900 rounded-lg p-6 border border-zinc-700 max-w-md mx-auto shadow-2xl">
                 <input 
                   type="email" 
                   placeholder="Enter your email"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent mb-3"
+                  className="w-full px-4 py-3 bg-zinc-800 border border-zinc-600 text-white placeholder-zinc-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent mb-3"
                 />
-                <button className="w-full bg-gray-900 text-white py-3 rounded-lg hover:bg-gray-800 transition-colors font-medium">
+                <button className="w-full bg-gradient-to-r from-yellow-400 to-amber-500 text-black py-3 rounded-lg hover:from-amber-500 hover:to-yellow-400 transition-all font-medium shadow-lg hover:shadow-xl">
                   Subscribe
                 </button>
               </div>
@@ -128,8 +128,8 @@ export default function Home() {
                 <a className="home-magnet-cta" href="#framework">Download the free guide</a>
               </div>
               <div className="home-magnet-cover" aria-hidden="true">
-                <div className="bg-gradient-to-br from-blue-500 to-purple-600 w-64 h-80 rounded-lg flex items-center justify-center">
-                  <span className="text-white text-6xl font-bold">AI</span>
+                <div className="bg-gradient-to-br from-yellow-400 via-amber-500 to-orange-500 w-64 h-80 rounded-lg flex items-center justify-center shadow-2xl">
+                  <span className="text-black text-6xl font-bold">AI</span>
                 </div>
               </div>
             </div>
@@ -202,9 +202,9 @@ export default function Home() {
           <section className="home-about">
             <h2 className="section-heading">About Moshe</h2>
             <div className="home-about-card">
-              <div className="home-about-photo" style={{backgroundImage: 'linear-gradient(135deg, #3B82F6, #8B5CF6)'}} aria-hidden="true">
+              <div className="home-about-photo" style={{backgroundImage: 'linear-gradient(135deg, #FBBF24, #F59E0B)'}} aria-hidden="true">
                 <div className="w-full h-full flex items-center justify-center">
-                  <span className="text-white text-6xl font-bold">MU</span>
+                  <span className="text-black text-6xl font-bold">MU</span>
                 </div>
               </div>
               <div className="home-about-body">
@@ -223,14 +223,14 @@ export default function Home() {
             <div className="home-cta-inner">
               <h3 className="home-cta-title">One essay, every <em>Tuesday</em> morning.</h3>
               <p className="home-cta-lede">Join 2,000+ executives implementing AI in complex organizations.</p>
-              <div className="kit-embed">
+                <div className="kit-embed">
                 <div className="max-w-md mx-auto space-y-3">
                   <input 
                     type="email" 
                     placeholder="Enter your email"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full px-4 py-3 bg-zinc-800 border border-zinc-600 text-white placeholder-zinc-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
                   />
-                  <button className="w-full bg-gray-900 text-white py-3 rounded-lg hover:bg-gray-800 transition-colors font-medium">
+                  <button className="w-full bg-gradient-to-r from-yellow-400 to-amber-500 text-black py-3 rounded-lg hover:from-amber-500 hover:to-yellow-400 transition-all font-medium shadow-lg">
                     Subscribe
                   </button>
                 </div>

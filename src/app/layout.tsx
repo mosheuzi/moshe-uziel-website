@@ -49,7 +49,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#2563eb" />
       </head>
-      <body className="antialiased">
+      <body className="antialiased" suppressHydrationWarning={true}>
         {children}
       </body>
     </html>
